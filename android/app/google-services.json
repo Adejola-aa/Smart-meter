@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "291798844915",
+    "project_id": "smartmeter-app-62f7b",
+    "storage_bucket": "smartmeter-app-62f7b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291798844915:android:e806e45c142e9bc0a47e86",
+        "android_client_info": {
+          "package_name": "com.example.smart_meter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB99-94Kp448KbXmbtZuIc8N9ChAYcdrm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
