@@ -1,16 +1,44 @@
-# smart_meter
+<p align="center">
+  <img src="assets/images/light-logo.png" alt="Smart Meter Logo" width="120" height="120">
+</p>
 
-A new Flutter project.
+<h1 align="center">⚡ Smart Meter App</h1>
+<p align="center">
 
-## Getting Started
+A Flutter mobile application for monitoring real-time energy consumption with live charts and daily analytics.
+</p>
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Live energy monitoring with real-time charts
+- Daily power usage analytics
+- User authentication with Firebase
+- Profile management with custom images
+- Dark mode UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Install Flutter SDK from https://flutter.dev/docs/get-started/install
+
+2. Clone and install dependencies:
+```powershell
+flutter pub get
+```
+
+3. Add Firebase config:
+- Put `google-services.json` in `android/app/`
+- Add `GoogleService-Info.plist` for iOS/macOS
+
+4. Run the app:
+```powershell
+flutter run
+```
+
+## Architecture
+
+- Firebase Authentication for user management
+- RESTful API for meter data
+- Riverpod for state management
+- Local storage for user preferences
+
+
